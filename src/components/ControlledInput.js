@@ -17,7 +17,7 @@ class ControlledInput extends React.Component {
       <input type="text" value="{this.state/value}" />
       </form>
     );
-    
+
   }
 }
 
