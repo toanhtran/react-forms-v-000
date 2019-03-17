@@ -8,7 +8,7 @@ class ControlledInput extends React.Component {
   handleChange = event => {
     this.setState){
       [event.target.name]: event.target.value
-    });
+    })
   }
 
   render(){
@@ -17,7 +17,7 @@ class ControlledInput extends React.Component {
       <input type="text" name="firstName" value={this.state.firstName} />
 <input type="text" name="lastName" value={this.state.lastName} />
       </form>
-    );
+    )
 
   }
 }
